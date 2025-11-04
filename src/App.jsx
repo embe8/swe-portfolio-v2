@@ -175,7 +175,7 @@ export default function Portfolio() {
               <Server className="card-icon cyan" />
               <h3 className="card-title">Backend</h3>
               <div className="tech-tags">
-                {skills.slice(5).map((skill) => (
+                {skills.slice(4).map((skill) => (
                   <span key={skill.name} className="skill-badge">
                     {skill.icon} {skill.name}
                   </span>
