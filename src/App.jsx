@@ -121,10 +121,10 @@ export default function Portfolio() {
 
   const skills = [
     {"name": "React", "icon": ""},
-    {"name": "Python", "icon": ""},
     {"name": "JavaScript", "icon": ""},
     {"name": "HTML", "icon": ""},
     {"name": "CSS", "icon": ""},
+    {"name": "Python", "icon": ""},
     {"name": "PostgreSQL", "icon": ""},
     {"name": "Supabase", "icon": ""},
     {"name": "Git", "icon": ""},
@@ -164,7 +164,7 @@ export default function Portfolio() {
               <Code2 className="card-icon cyan" />
               <h3 className="card-title">Frontend</h3>
               <div className="tech-tags">
-                {skills.slice(0, 5).map((skill) => (
+                {skills.slice(0, 4).map((skill) => (
                   <span key={skill.name} className="skill-badge">
                     {skill.icon} {skill.name}
                   </span>
