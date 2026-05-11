@@ -71,7 +71,7 @@ export default function Portfolio() {
         },
         {
           label: 'Deployed Application',
-          url: 'https://react-chat-app-4bf9-git-main-embes-projects.vercel.app/?_vercel_share=HkQhyhawIVyhoJbIXwpU5lkNSqJANX3F',
+          url: 'https://www.capychat.eebon.com/',
           icon: <ExternalLink className="icon" />
         }
       ],
@@ -97,7 +97,7 @@ export default function Portfolio() {
         },
         {
           label: 'Deployed Application',
-          url: 'https://car-builder-app-v2-git-main-embes-projects.vercel.app/?_vercel_share=IjBl0M8nt3vO4nGqhgfvl2WYJXuWBDKG',
+          url: 'https://auto-builder.eebon.com/',
           icon: <ExternalLink className="icon" />
         }
       ],
@@ -164,7 +164,7 @@ export default function Portfolio() {
               <Code2 className="card-icon cyan" />
               <h3 className="card-title">Frontend</h3>
               <div className="tech-tags">
-                {skills.slice(0, 4).map((skill) => (
+                {skills.slice(0, 5).map((skill) => (
                   <span key={skill.name} className="skill-badge">
                     {skill.icon} {skill.name}
                   </span>
@@ -175,7 +175,7 @@ export default function Portfolio() {
               <Server className="card-icon cyan" />
               <h3 className="card-title">Backend</h3>
               <div className="tech-tags">
-                {skills.slice(4).map((skill) => (
+                {skills.slice(5).map((skill) => (
                   <span key={skill.name} className="skill-badge">
                     {skill.icon} {skill.name}
                   </span>
@@ -230,11 +230,11 @@ export default function Portfolio() {
                     >
                     <Github className="icon-sm" />
                   </button>
-                  {/*<button className="icon-button">
+                  {<button className="icon-button">
                     <ExternalLink className="icon-sm" 
                     onClick={() => window.open(project.links[1].url, '_blank')}
                     />
-                  </button>*/}
+                  </button>}
                   <button 
                     onClick={() => setSelectedProject(project)}
                     className="icon-button"
@@ -465,7 +465,7 @@ export default function Portfolio() {
             <div className="status-indicator"></div>
             <div className="status-content">
               <p className="status-title">Available for hybrid, remote or on-site opportunities</p>
-              <p className="status-subtitle">Open to entry-level software developer positions</p>
+              <p className="status-subtitle">Open to entry-level and junior software developer positions</p>
             </div>
           </div>
         </div>
@@ -481,3 +481,4 @@ export default function Portfolio() {
       </>
   )
 }
+
