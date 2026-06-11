@@ -59,8 +59,8 @@ export default function Portfolio() {
  
   const projects = [
     {
-      title: 'CapyChat Real Time Chat Application',
-      description: 'A modern, real-time messaging platform enabling instant communication with image sharing, user authentication, and live message synchronization. Features include secure login/registration, persistent chat history, and seamless multi-device support for a smooth user experience.',
+      title: 'AI-Powered Real Time Chat Application',
+      description: 'A full-stack real-time messaging platform with an integrated AI chatbot powered by Google Gemini. Chat with an AI assistant that has context of your conversation history, alongside core features like instant messaging, image sharing, secure authentication, and live message synchronization across devices.',      
       tech: ['React', 'Node.js', 'Firebase'],
       gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500',
       links: [
