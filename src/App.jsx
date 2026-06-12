@@ -71,7 +71,7 @@ export default function Portfolio() {
         },
         {
           label: 'Deployed Application',
-          url: 'https://www.capychat.eebon.com/',
+          url: 'https://www.capy-chat.eebon.com/',
           icon: <ExternalLink className="icon" />
         }
       ],
