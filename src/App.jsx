@@ -149,7 +149,7 @@ export default function Portfolio() {
               <div className="card-avatar">👨‍💻</div>
               <h1 className="hero-title">Erika Ebon</h1>
               <h2 className="hero-title">Software Developer</h2>
-              <p className="hero-description">Entry-level developer passionate about building intuitive web applications. 
+              <p className="hero-description">Software developer passionate about building intuitive web applications. 
               Experienced in React, Python, and modern web technologies. Always learning and 
               excited to contribute to innovative projects. </p>
             </div>
