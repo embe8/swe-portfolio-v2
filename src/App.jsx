@@ -15,6 +15,7 @@ import chromeQuooudKfXY from './assets/chrome_QuooudKfXY.gif'
 import home1 from './assets/home-1.png'
 import chromeUgSu4h9hFT from './assets/chrome_ugSu4h9hFT.png'
 import modelList from './assets/model_list.png'
+import aiChatbot from './assets/AI feature.png'
 
 // Import review images
 import review1 from './assets/review-1.png'
