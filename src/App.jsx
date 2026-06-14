@@ -77,6 +77,7 @@ export default function Portfolio() {
         }
       ],
       demos: [
+        aiChatbot,
         loginPage,
         registerPage,
         chatsComponent,
