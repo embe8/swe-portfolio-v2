@@ -61,7 +61,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: 'AI-Powered Real Time Chat Application',
-      description: 'A full-stack real-time messaging platform with an integrated AI chatbot powered by Google Gemini. Chat with an AI assistant that has context of your conversation history, alongside core features like instant messaging, image sharing, secure authentication, and live message synchronization across devices.',      
+      description: 'Developed a full-stack chat application using React, Node.js, Express, and Firebase with real-time messaging, image sharing, and secure user authentication. Integrated Google Gemini through a custom Express API layer to provide AI-powered assistance while maintaining separation between private user conversations and external AI services. Implemented responsive UI components, state management, and real-time database synchronization',      
       tech: ['React', 'Node.js', 'Firebase'],
       gradient: 'bg-gradient-to-r from-cyan-500 to-blue-500',
       links: [
