@@ -99,7 +99,7 @@ export default function Portfolio() {
         },
         {
           label: 'Deployed Application',
-          url: 'https://auto-builder.eebon.com/',
+          url: 'https://car-builder-app-v2.vercel.app/',
           icon: <ExternalLink className="icon" />
         }
       ],
