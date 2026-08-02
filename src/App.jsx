@@ -349,7 +349,7 @@ export default function Portfolio() {
               </div>
               <div className="experience-content">
                 <div className="experience-item">
-                  <h4 className="experience-role">Data Annotator/AI Trainer</h4>
+                  <h4 className="experience-role">Data Annotator for Software Development</h4>
                   <p className="experience-company">DataAnnotation.tech</p>
                   <p className="experience-date">Jan 2024 - Aug 2025</p>
                   <ul className="experience-list">
