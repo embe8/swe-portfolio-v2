@@ -348,6 +348,16 @@ export default function Portfolio() {
                 <h3 className="card-title">Experience</h3>
               </div>
               <div className="experience-content">
+                 <div className="experience-item">
+                  <h4 className="experience-role">AI Safety Policy Trainer</h4>
+                  <p className="experience-company">Handshake AI</p>
+                  <p className="experience-date">May 2026 - present</p>
+                  <ul className="experience-list">
+                    <li>Annotated and labeled user and AI conversations using comprehensive safety policy rubrics</li>
+                    <li>Achieved 92% overall labeling accuracy by following quality standards and detailed project guidelines/li>
+                    <li>Communicated rationale during team meetings and external client meetings to ensure alignment across safety policy guidelines</li>
+                  </ul>
+                </div>
                 <div className="experience-item">
                   <h4 className="experience-role">Data Annotator for Software Development</h4>
                   <p className="experience-company">DataAnnotation.tech</p>
