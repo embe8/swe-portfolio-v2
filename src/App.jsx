@@ -354,7 +354,7 @@ export default function Portfolio() {
                   <p className="experience-date">May 2026 - present</p>
                   <ul className="experience-list">
                     <li>Annotated and labeled user and AI conversations using comprehensive safety policy rubrics</li>
-                    <li>Achieved 92% overall labeling accuracy by following quality standards and detailed project guidelines/li>
+                    <li>Achieved 92% overall labeling accuracy by following quality standards and detailed project guidelines</li>
                     <li>Communicated rationale during team meetings and external client meetings to ensure alignment across safety policy guidelines</li>
                   </ul>
                 </div>
@@ -503,4 +503,3 @@ export default function Portfolio() {
       </>
   )
 }
-
